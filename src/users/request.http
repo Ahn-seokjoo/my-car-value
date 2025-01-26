@@ -9,7 +9,7 @@ Content-Type: application/json
 //  whitelist: true 때문에 위의 설정한 값만 들어오고 추가로 딸려온 속성은 무시함 외부의 공격을 막을 수 있음. 보안상 좋음
 
 ### Find particular user with id
-GET http://localhost:3000/auth/1125215
+GET http://localhost:3000/auth/2
 
 ### find all user with email
 GET http://localhost:3000/auth?email=abcd@efgh.com
@@ -18,7 +18,7 @@ GET http://localhost:3000/auth?email=abcd@efgh.com
 DELETE http://localhost:3000/auth/1215616
 
 ### update a user
-PATCH http://localhost:3000/auth/21241244
+PATCH http://localhost:3000/auth/2
 Content-Type: application/json
 
 {
